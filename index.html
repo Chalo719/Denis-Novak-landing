@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis Novik</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__list wrapper">
+                    <li class="header__li">
+                        <a href="#home" class="header__link">Home</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#about" class="header__link">About me</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#skills" class="header__link">Skills</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#portfolio" class="header__link">Portfolio</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#contacts" class="header__link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="home" class="home">
+            <div class="container wrapper">
+                <h1 class="home__title">Denis Novik</h1>
+                <p class="home__subtitle">UX | UI designer &nbsp; 24 years old, Minsk</p>
+                <form class="home__lang-select">
+                    <span class="lang">
+                        <input type="radio" id="ru" name="lang">
+                        <label for="ru">RU</label>
+                    </span>
+                    <span>|</span>
+                    <span class="lang">
+                        <input type="radio" id="eng" name="lang" checked>
+                        <label for="eng">ENG</label>
+                    </span>
+                </form>
+            </div>
+
+            <div class="container">
+                <img class="home__img" src="./img/home-img.jpg" alt="Denis Novik">
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="about__title">About me</h2>
+            <div class="about__subtitle">
+                <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.
+                </p>
+                <p>I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
+                <p>Ready to implement excellent projects<br>with wonderful people.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="skills__title">Skills</h2>
+            <p class="skills__subtitle">I work in such programs as</p>
+            <div class="container wrapper">
+                <img src="./img/adobe-photoshope.svg" alt="adobe photoshop">
+                <img src="./img/adobe-illustrator.svg" alt="adobe illustrator">
+                <img src="./img/adobe-after-effects.svg" alt="adobe after effects">
+                <img src="./img/figma.svg" alt="figma">
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <div class="container">
+                <div class="portfolio__card">
+                    <img class="card__img" src="./img/online-fashion-store.svg" alt="Online fashion store">
+                    <a href="#portfolio" class="card__subtitle">Online fashion store - Homepage</a>
+                </div>
+                <div class="portfolio__card">
+                    <img class="card__img" src="./img/reebok-store.svg" alt="Reebok Store">
+                    <a href="#portfolio" class="card__subtitle">Reebok Store - Concept</a>
+                </div>
+                <div class="portfolio__card">
+                    <img class="card__img" src="./img/braun-landing.jpg" alt="Braun Landing Page">
+                    <a href="#portfolio" class="card__subtitle">Braun Landing Page - Concept</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <h2 class="footer__title">Contacts</h2>
+        <p class="footer__subtitle">Want to know more or just chat?<br>You are welcome!</p>
+        <button class="footer__btn">Send message</button>
+        <div class="footer__icons">
+            <img class="icon__img" src="./img/linkedin-ico.svg" alt="LinkedIn">
+            <img class="icon__img" src="./img/instagram-ico.svg" alt="Instagram">
+            <img class="icon__img" src="./img/behance-ico.svg" alt="Behance">
+            <img class="icon__img" src="./img/gribble-ico.svg" alt="Dribble">
+        </div>
+        <p class="icons__subtitle">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+    </footer>
+</body>
+
+</html>
